@@ -1,0 +1,3942 @@
+
+*{
+    box-sizing: border-box;
+  }
+  body{
+    padding: 0;
+    margin: 0;
+  
+   
+  }
+  .mylinks{
+    text-decoration: none;
+    border: 0px solid white;
+    color: white;
+    height: 10%;
+  }
+  .blacker{
+  color: black;
+  cursor: pointer;
+  }
+  
+  .colp{
+    color: rgba(0, 128, 0, 0.538);
+  }
+  
+  /*###Desktops, big landscape tablets and laptops(Large, Extra large)####*/
+  @media screen and (min-width: 1024px){
+  body{
+    padding: 0;
+    margin: 0;
+    position: relative;
+   
+  }
+  .sticky-top {
+  position: sticky;
+  background-color: white;
+  top: 0px;
+  }
+    .hideme{
+        display: none;
+    }
+    #hiders{
+      display: none;
+    }
+    .showme{
+        display: block;
+    }
+    header{
+        height: 160px;
+       border: 0px solid red;
+        
+      display: flex;
+      flex-direction: column;
+     
+      position: -webkit-sticky;
+      position: sticky;
+      top: -7em;
+      z-index: 2;
+    }
+    header > div {
+       
+        border: 0px solid black;
+    }
+    .tophead{
+        height: 70%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: 0px solid black;
+        padding: 0px 30px;
+    }
+    .mytimes{
+        display: flex;
+        align-items: center;
+        height: 100%;
+        width: 33.33%;
+        border: 0px solid black; 
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .mylogo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 33.33%;
+        border: 0px solid black;
+        font-size: 56px;
+        font-weight: bolder;
+        color: #ff3333;
+    }
+    .myjew{
+     display: flex;
+     justify-content: end;
+     gap: 10px;
+     height: 100%;
+     width: 33.33%;
+     border: 0px solid black;
+    }
+    .jew1{
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        border: 0px solid black;
+        width: 70%;
+       
+    }
+    .jew2{
+        display: none;
+      
+    }
+    .sdownhead{
+        height: 30%;
+        display: flex;
+        justify-content: space-between;
+        border:  1px solid rgba(236, 110, 110, 0.295); 
+        border-left: 0px;
+        border-right: 0;
+        padding: 0px 30px;
+        position: sticky;
+  background-color: white;
+  top: 0px;
+      
+       
+    }
+    .downhead{
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+      
+    }
+    .downhead > a {
+        width: 9%;
+        height: 100%;
+        border: 0px solid black; 
+        font-size: 14px;
+        display: flex;
+        
+        align-items: center;
+        text-decoration: none;
+        color: black;
+    }
+    .nyt{
+        width: 11%!important;
+    }
+    .menuhead{
+        width: 10%;
+        height: 100%;
+        border: 0px solid black; 
+        display: flex;
+        justify-content: end;
+        align-items: center;
+       
+    }
+    .angel{
+      display: flex;
+      align-items: center;
+      border:  1px solid rgba(236, 110, 110, 0.295); 
+      border-left: 0px;
+      border-right: 0;
+      height: 45px;
+      gap: 40px;
+      padding: 0px 30px;
+      font-size: 14px;
+     
+    }
+    .lije{
+      text-decoration: none;
+      color: black;
+    }
+    #menu{
+      display: none;
+    }
+    #tata{
+      display: none;
+    }
+  
+    main{
+       
+       border: 0px solid red;
+        padding: 0px 30px;
+        margin-top: 30px;
+      
+        
+    }
+  
+    .section1{
+        height: 80vh;
+        display: flex;
+        gap: 10px;
+        border-bottom: 1px solid black;
+        padding: 0px 0 30px 0;
+    }
+    .sec1{
+     width: 20%;
+     border: 0px solid red;
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+    }
+  .box1{
+    height: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.13); 
+    border-radius: 5px;
+    display: flex;
+     flex-direction: column;
+  }
+  .imag1{
+    height: 70%;
+    border: 0px solid black;
+    background-image: url(https://botaworld.com/portfolio/vanguard/images/EFCC-BAWa.webp);
+  
+    background-size: cover;
+  }
+  .desc1{
+    height: 30%;
+    border: 0px solid black;
+    padding: 10px; 
+    
+  }
+  .tope{
+    text-decoration: none;
+    color: black;
+    
+  }
+  .wrapme{
+    max-width: 100%;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+  .box2{
+    height: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.13); 
+    border-radius: 5px;
+    display: flex;
+     flex-direction: column;
+  }
+  .imag2{
+    height: 70%;
+    border: 0px solid black;
+    background-image: url(https://botaworld.com/portfolio/vanguard/images/Adebanjo.webp);
+  
+    background-size: cover;
+  }
+  .desc2{
+    height: 30%;
+    border: 0px solid black; 
+    padding: 10px; 
+    
+  }
+  
+  
+    .sec2{
+        width: 50%;
+        border: 1px solid rgba(0, 0, 0, 0.13); 
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .imag3{
+        height: 70%;
+        border: 0px solid black;
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/Tinubu-Buhari.webp);
+  
+    background-size: cover;
+    }
+    .desc3{
+        height: 30%;
+        border: 0px solid black; 
+        padding: 10px;
+    }
+  
+    .sec3{
+        width: 30%;
+     border: 0px solid red; 
+     display: flex;
+     flex-direction: column;
+    }
+    .topme{
+     height: 10%;
+     border-top: 1px solid black; 
+     display: flex;
+     align-items: center;
+    }
+    .lnews{
+        font-size: 30px;
+    }
+    .bodyme{
+        height: 70%;
+        border: 0px solid black; 
+        display: flex;
+        flex-direction: column;  
+        overflow-y: scroll; /* add a horizontal scroll bar */
+       margin-bottom: 60px;
+       
+    }
+    .bless{
+        flex: 0 0 auto; /* set the flex-grow, flex-shrink, and flex-basis properties to auto */
+        display: flex;
+       
+        height: 25%;
+        border: 1px solid rgba(0, 0, 0, 0.13); 
+        border-radius: 5px;
+       
+    }
+    .afri{
+        width: 70%;
+        border: 0px solid blue; 
+        display: flex;
+        flex-direction: column;
+    }
+    .toptimer{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        height: 30%;
+        border: 0px solid red; 
+        position: relative;
+    }
+    .circe{
+        background-color: red;
+        border: 0px solid red;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        position: absolute;
+        left: 4px;
+    }
+    .timere{
+        position: absolute;
+        left: 30px; 
+        border: 0px solid black;
+        width: 40%;
+        height: 80%;
+        display: flex;
+        align-items: center;
+        color: red;
+        font-weight: bold;
+    }
+    .writeup{
+        
+        height: 70%;
+       
+        border: 0px solid blue;
+        padding: 10px 10px 15px 10px;  
+        font-size: 14px;
+    }
+    .boximage1{
+        
+        width: 30%;
+        border: 0px solid green;  
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/PTI.webp);
+  
+        background-size: cover;
+    }
+    .boximage2{
+        
+        width: 30%;
+        border: 0px solid green;  
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/Olumuyiwa-Adejobi.webp);
+  
+        background-size: cover;
+    }
+    .boximage3{
+        
+        width: 30%;
+        border: 0px solid green;  
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/Flying-Eagles-edited.webp);
+  
+        background-size: cover;
+    }
+    .boximage4{
+        
+        width: 30%;
+        border: 0px solid green;  
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/Ortom-e1648485266439.webp);
+  
+        background-size: cover;
+    }
+    .boximage5{
+        
+        width: 30%;
+        border: 0px solid green;  
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/201512566b3bc978721.webp);
+  
+        background-size: cover;
+    }
+    .boximage6{
+        
+        width: 30%;
+        border: 0px solid green;  
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/KANU.webp);
+  
+        background-size: cover;
+    }
+    .boximage7{
+        
+        width: 30%;
+        border: 0px solid green;  
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/Alcaraz-scaled.webp);
+  
+        background-size: cover;
+    }
+    
+    .liner{
+        flex: 0 0 auto; /* set the flex-grow, flex-shrink, and flex-basis properties to auto */
+        height: 5%;
+        border-left: 2px solid red; 
+        margin-left: 10px;
+    }
+  
+    .downme{
+        height: 10%;
+        border: 1px solid red; 
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+  
+  
+    .section2{
+        height: 80vh;
+        border-bottom: 1px solid black;
+        padding: 0px 0 30px 0;
+        
+    }
+    .poli{
+        height: 10%;
+        border: 0px solid black; 
+        display: flex;
+        align-items: center;
+    }
+    .fase{
+        font-size: 16px;
+       color: red;
+       padding: 5px;
+       margin: -10px 10px 0px 0px;
+      
+    }
+    .section21{
+        height: 90%;
+        border: 0px solid black; 
+        display: flex;
+        gap: 10px;
+  
+    }
+    .section21 > div {
+        width: 50%;
+        height: 100%;
+        border: 0px solid black; 
+  
+    }
+    .poli1{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid rgba(0, 0, 0, 0.13)!important;
+        border-radius: 5px;
+  
+    }
+    .imag4{
+      height: 70%;
+      border: 0px solid black;
+      background-image: url(https://botaworld.com/portfolio/vanguard/images/image-419.webp);
+  
+      background-size: cover;
+    }
+    .desc4{
+        height: 15%;
+        border: 0px solid black;
+        padding: 10px 10px 0px 10px;
+        font-size: 22px;
+        font-weight: bold;
+       
+      }
+      .desc5{
+        height: 15%;
+        border: 0px solid black;
+        padding: 0px 10px 10px 10px;
+        max-height: 3em; /* set maximum height to 3 lines of text */
+        overflow: hidden; /* hide any text that overflows beyond the maximum height */
+        display: -webkit-box;
+        -webkit-line-clamp: 3; /* limit the number of lines to 3 */
+        -webkit-box-orient: vertical;
+      }
+      .poli2{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1%;
+      }
+      .poli2 > div {
+        width: 49.5%;
+        border: 0px solid black;
+      }
+      .player1, .player2, .player3, .player4{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid rgba(0, 0, 0, 0.13)!important;
+        border-radius: 5px;
+      }
+      .imag5, .imag6, .imag7, .imag8{
+        height: 70%;
+        border: 0px solid black;
+      }
+      .imag5{
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/oshiomole-1.webp);
+  
+        background-size: cover;
+      }
+      .imag6{
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/Aisha.webp);
+  
+        background-size: cover;
+      }
+      .imag7{
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/image-416.webp);
+  
+        background-size: cover;
+      }
+      .imag8{
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/image-414.webp);
+  
+        background-size: cover;
+      }
+      .play2{
+        height: 30%;
+        border: 0px solid black;
+        display: flex;
+       padding: 10px;
+      }
+      .section3{
+        height: 50vh;
+        border: 0px solid black; 
+        border-bottom: 1px solid black;
+        padding: 0px 0 30px 0;
+     
+    }
+      .vid1{
+        display: flex;
+        align-items: center;
+        height: 15%;
+        border: 0px solid black;
+      }
+      .section31{
+        height: 85%;
+        border: 0px solid black; 
+        display: flex;
+        gap: 10px;
+    }
+    .section31 > div {
+        width: 25%;
+        border: 0px solid black; 
+    }
+    .game1{
+        border: 1px solid rgba(0, 0, 0, 0.13)!important;
+        border-radius: 5px;
+    }
+    .imag9, .imag10, .imag11, .imag12{
+        height: 65%;
+        border: 0px solid black;
+      }
+      .imag9{
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/F211C00C-7A7D-4D84-B2E6-C43B6DF19D7C-scaled.webp);
+  
+        background-size: cover;
+      }
+      .imag10{
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/1A149192-F672-4DC8-9F37-E6BA33E79DBE-scaled.webp);
+  
+        background-size: cover;
+      }
+      .imag11{
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/99FE241B-CDF1-45F0-95E4-A2DE8F716A0A-scaled.webp);
+  
+        background-size: cover;
+      }
+      .imag12{
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/ACA99C63-48C1-47DF-A3FB-F5B3F2E56040-scaled.webp);
+  
+        background-size: cover;
+      }
+      .play3{
+        height: 35%;
+        border: 0px solid black;
+        padding: 10px;
+      }
+  
+      .imag13{
+        height: 70%;
+        border: 0px solid black;
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/Police-5.webp);
+  
+        background-size: cover;
+      }
+      .imag14, .imag15, .imag16, .imag17{
+        height: 70%;
+        border: 0px solid black;
+      }
+      .imag14{
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/image-415.webp);
+  
+        background-size: cover;
+      }
+      .imag15{
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/Olumuyiwa-Adejobi.webp);
+  
+        background-size: cover;
+      }
+      .imag16{
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/201512566b3bc978721.webp);
+  
+        background-size: cover;
+      }
+      .imag17{
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/KANU.webp);
+  
+        background-size: cover;
+      }
+  
+      .section5{
+        height: 30vh;
+        border: 0px solid black; 
+        border-bottom: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        padding: 0px 0 30px 0;
+        
+    }
+    .boli{
+        display: flex;
+        align-items: center;
+        color: red;
+        height: 20%;
+        border: 0px solid green;
+       
+    }
+    .section51{
+       
+        height: 80%;
+        display: flex; /* set the display property to flex */
+        overflow-x: scroll; /* add a horizontal scroll bar */
+      
+        border: 0px solid red;
+    }
+       
+    
+    .flex-item {
+        flex: 0 0 auto; /* set the flex-grow, flex-shrink, and flex-basis properties to auto */
+        width: 30%; /* set a fixed width for each item */
+        height: 100%; /* set a fixed height for each item */
+        margin-right: 10px; /* add a margin to separate the items */
+        border: 0px solid blue;
+        display: flex;
+        border: 1px solid rgba(0, 0, 0, 0.13)!important;
+        border-radius: 5px;
+    }
+    .saxy{
+        display: flex;
+        flex-direction: column;
+        width: 65%;
+        border: 0px solid black;
+    }
+    .elect1{
+        display: flex;
+        align-items: center;
+        height: 30%;
+        border: 0px solid black;
+        position: relative;
+    }
+    .circt{
+        background-color: red;
+        border: 0px solid red;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        position: absolute;
+        left: 8px;
+    }
+    .timert{
+        position: absolute;
+        left: 28px; 
+        border: 0px solid black;
+        width: 50%;
+        height: 80%;
+        display: flex;
+        align-items: center;
+        color: red;
+        font-weight: bold;
+    }
+    .elect2{
+        height: 70%;
+        border: 0px solid black;
+        padding: 10px;
+    }
+    .imag18{
+        width: 35%;
+        border: 0px solid black;
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/peter-obi.webp);
+  
+        background-size: cover;
+    }
+    .imag19{
+        width: 35%;
+        border: 0px solid black;
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/image-419.webp);
+  
+        background-size: cover;
+    }
+    .imag20{
+        width: 35%;
+        border: 0px solid black;
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/Chairman-of-occasion-Engr.-Segun-Oni-620x400-1.webp);
+  
+        background-size: cover;
+    }
+    .imag21{
+        width: 35%;
+        border: 0px solid black;
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/Atiku-and-Wike.webp);
+  
+        background-size: cover;
+    }
+    .imag22{
+        width: 35%;
+        border: 0px solid black;
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/peter-obi.webp);
+  
+        background-size: cover;
+    }
+  
+  
+    .imag23{
+        height: 70%;
+        border: 0px solid black;
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/Tonto-Churchill.webp);
+  
+        background-size: cover;
+      }
+      .imag24, .imag25, .imag26, .imag27{
+        height: 70%;
+        border: 0px solid black;
+      }
+      .imag24{
+        height: 70%;
+        border: 0px solid black;
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/Tonto-Dikeh-and-son.webp);
+  
+        background-size: cover;
+      }
+      .imag25{
+       
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/WhatsApp-Image-2023-02-17-at-6.48.52-PM.webp);
+  
+        background-size: cover;
+      }
+  
+      .imag26{
+      
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/Ime-Bishop-Umoh.webp);
+  
+        background-size: cover;
+      }
+      .imag27{
+     
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/Chidi-Biography.webp);
+  
+        background-size: cover;
+      }
+      
+      .imag28, .imag29, .imag30, .imag31{
+        height: 65%;
+        border: 0px solid black;
+      }
+      .imag28{
+     
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/PHOTO-2023-02-18-09-12-39_1.webp);
+  
+        background-size: cover;
+      }
+      .imag29{
+     
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/Asuz.webp);
+  
+        background-size: cover;
+      }
+      .imag30{
+     
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/stdstaph.webp);
+  
+        background-size: cover;
+      }
+      .imag31{
+     
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/diabetis-1024x588.webp);
+  
+        background-size: cover;
+      }
+  
+      .section6{
+        height: 50vh;
+        border: 0px solid black; 
+        border-bottom: 1px solid black;
+        padding: 0px 0 30px 0;
+     
+    }
+      .vid6{
+        display: flex;
+        align-items: center;
+        height: 15%;
+        border: 0px solid black;
+      }
+      .section61{
+        height: 85%;
+        border: 0px solid black; 
+        display: flex;
+        gap: 10px;
+    }
+    .section61 > div {
+        width: 33.33%;
+        border: 0px solid black; 
+    }
+    .imag32, .imag33, .imag34{
+        height: 80%;
+        border: 0px solid black;
+      }
+      .imag32{
+     
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/CA3.webp);
+  
+        background-size: cover;
+      }
+      .imag33{
+     
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/CA1.webp);
+  
+        background-size: cover;
+      }
+      .imag34{
+     
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/IMG-20230123-WA0042.webp);
+  
+        background-size: cover;
+      }
+  
+      .play6{
+        height: 20%;
+        border: 0px solid black;
+        padding: 10px;
+        text-align: center;
+      }
+  
+      .imag35{
+        height: 80%;
+        border: 0px solid black;
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/Nigerian-map-e1648026092438.webp);
+  
+        background-size: cover;
+      }
+      .imag36, .imag37, .imag38, .imag39{
+        height: 70%;
+        border: 0px solid black;
+      }
+      .imag36{
+     
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/bank.webp);
+  
+        background-size: cover;
+      }
+      .imag37{
+     
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/image-410.webp);
+  
+        background-size: cover;
+      }
+      .imag38{
+     
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/itel-and-Airtel.webp);
+  
+        background-size: cover;
+      }
+      .imag39{
+     
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/Apapa-Port-railway.webp);
+  
+        background-size: cover;
+      }
+  
+      .imag40, .imag41, .imag42, .imag43{
+        height: 65%;
+        border: 0px solid black;
+      }
+      .imag40{
+     
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/PSN.webp);
+  
+        background-size: cover;
+      }
+      .imag41{
+     
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/image-381.webp);
+  
+        background-size: cover;
+      }
+      .imag42{
+     
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/Doctors.webp);
+  
+        background-size: cover;
+      }
+      .imag43{
+     
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/JAGAL.webp);
+  
+        background-size: cover;
+      }
+  
+      .section7{
+        height: 80vh;
+        border: 0px solid black; 
+        border-bottom: 1px solid black;
+        display: flex;
+        flex-direction: column;
+    }
+    .edu{
+        height: 10%;
+        border: 0px solid red; 
+    }
+    .edubody{
+        height: 80%;
+        border: 0px solid blue; 
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .edubody > div {
+        height: 25%;
+        border: 0px solid black; 
+    }
+    .edugame{
+        display: flex;
+        justify-content: space-between;
+        border: 0px solid black; 
+    }
+    .miller{
+        width: 90%;
+        border: 0px solid blue; 
+    }
+    .imag44, .imag45, .imag46, .imag47{
+        width: 10%;
+        border: 0px solid black;
+      }
+  
+    .eduload{
+        height: 10%;
+        border: 0px solid red; 
+    }
+    .section8{
+      height: 300vh;
+      border: 0px solid black; 
+      border-bottom: 1px solid black;
+      display: flex;
+      gap: 10px;
+    
+      }
+      .section81{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 36px;
+       width : 15%;
+       border: 0px solid black; 
+       padding-top: 24.5%;
+       position: -webkit-sticky;
+       position: sticky;
+       top: 0em;
+       z-index: 1;
+      }
+      .biker{
+        display: flex;
+        flex-direction: column;
+        position: sticky;
+        background-color: white;
+        top: 60px;
+      }
+     
+      .section82{
+        width : 55%;
+        border: 0px solid rgba(0, 0, 0, 0.249); 
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+       
+      }
+      .po1{
+        display: flex;
+        align-items: center;
+         height: 3%;
+         border: 0px solid blue; 
+      }
+      .po2{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 4%;
+        border: 0px solid blue;
+      color: red;
+      font-size: 20px;
+      
+      }
+      .colp{
+        color: green;
+        font-size: 17px; 
+      }
+      .po3{
+        display: flex;
+        align-items: center;
+        height: 5%;
+        border: 0px solid blue;
+        font-size: 48px;
+        margin-bottom: 20px;
+  
+      
+      }
+      .po4{
+        height: 30%;
+        border: 0px solid blue;
+  
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/image-530.webp);
+  
+        background-size: cover;
+        border: 0px solid rgba(0, 0, 0, 0.249); 
+      }
+      .po5{
+        height: 15%;
+        border: 0px solid blue;
+        text-align: justify;
+        border: 0px solid rgba(0, 0, 0, 0.249); 
+      }
+      .po6{
+        height: 10%;
+        border-left: 1px solid red;
+        background-color: rgb(177, 179, 180);
+        padding: 20px;
+      }
+      ul {
+      
+       
+        list-style-type: circle;
+     
+      }
+      li {
+        padding: 10px 20px;
+      }
+      .po7{
+        height: 30%;
+        border: 0px solid blue;
+        word-wrap: break-word;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-align: justify;
+      }
+      .section83{
+        width : 30%;
+        border: 0px solid black; 
+        display: flex;
+        flex-direction: column;
+       
+      }
+      .jol1{
+        height: 50%;
+        border: 0px solid black;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      .latest{
+        display: flex;
+        align-items: center;
+        font-size: 34px;
+        font-weight: bold;
+        height: 5%;
+        border-top: 1px solid black;
+      }
+      .mysec1, .mysec2, .mysec3, .mysec4, .mysec5{
+        height: 8%;
+        padding: 10px;
+        border: 1px solid rgba(0, 0, 0, 0.13);
+        font-weight: bold;
+        border-radius: 5px;
+      }
+     
+  
+      .section9{
+        height: 164vh;
+        border: 0px solid black; 
+        border-bottom: 1px solid black;
+        display: flex;
+      
+        }
+        .section91{
+         width : 15%;
+         border: 0px solid black; 
+        }
+        .section92{
+          height: 150vh;
+          width : 55%;
+          border: 0px solid black; 
+          display: flex;
+         flex-wrap: wrap;
+         align-content: flex-start;
+        gap: 8px 8px; /* row gap is 20px, column gap is 10px   */
+      
+        }
+  
+        .mystories{
+          display: flex;
+          align-items: center;
+          height: 6%;
+          font-size: 220%;
+          width : 100%;
+          border: 0px solid black; 
+          color: black;
+        }
+  
+        .page1, .page2, .page3, .page4, .page5, .page6{
+           display: flex;
+           flex-direction: column;
+          width: 32.45%;
+          height: 22%;
+          border: 1px solid rgba(0, 0, 0, 0.13);
+          border-radius: 5px;
+        }
+  .pager1, .pager2, .pager3, .pager4, .pager5, .pager6{
+  height: 70%;
+  border: 0px solid black;
+  }
+  .pager1{
+  background-image: url(https://botaworld.com/portfolio/vanguard/images/image-537.webp);
+  
+  background-size: cover;
+  }
+  .pager2{
+  background-image: url(https://botaworld.com/portfolio/vanguard/images/Abdulrasheed-Bawa.webp);
+  
+        background-size: cover; 
+  }
+  .pager3{
+  background-image: url(https://botaworld.com/portfolio/vanguard/images/Nigerian-Soldiers-Nigerian-Army-North-East.webp);
+  
+  background-size: cover;
+  }
+  .pager4{
+  background-image: url(https://botaworld.com/portfolio/vanguard/images/Accident-scene.webp);
+  
+  background-size: cover;
+  }
+  .pager5{
+  background-image: url(https://botaworld.com/portfolio/vanguard/images/TB-Joshua-3.webp);
+  
+  background-size: cover;
+  }
+  .pager6{
+  background-image: url(https://botaworld.com/portfolio/vanguard/images/Troops.webp);
+  
+  background-size: cover;
+  }
+  
+  .ice{
+  height: 30%;
+  word-wrap: break-word;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  padding: 10px;
+  
+  }
+  
+  
+  .page7, .page8, .page9, .page10, .page11, .page12{
+    display: flex;
+    flex-direction: column;
+   width: 32.3%;
+   height: 26.5%;
+   border: 0px solid black; 
+   border: 1px solid rgba(0, 0, 0, 0.13);
+   border-radius: 5px;
+  
+  }
+  .pager7, .pager8, .pager9, .pager10, .pager11, .pager12{
+  height: 75%;
+  border: 0px solid black;
+  }
+  
+  .pager7{
+    background-image: url(https://botaworld.com/portfolio/vanguard/images/image-537.webp);
+    
+    background-size: cover;
+    }
+    .pager8{
+    background-image: url(https://botaworld.com/portfolio/vanguard/images/Abdulrasheed-Bawa.webp);
+    
+          background-size: cover; 
+    }
+    .pager9{
+    background-image: url(https://botaworld.com/portfolio/vanguard/images/Nigerian-Soldiers-Nigerian-Army-North-East.webp);
+    
+    background-size: cover;
+    }
+    .pager10{
+    background-image: url(https://botaworld.com/portfolio/vanguard/images/Accident-scene.webp);
+    
+    background-size: cover;
+    }
+    .pager11{
+    background-image: url(https://botaworld.com/portfolio/vanguard/images/TB-Joshua-3.webp);
+    
+    background-size: cover;
+    }
+    .pager12{
+    background-image: url(https://botaworld.com/portfolio/vanguard/images/Troops.webp);
+    
+    background-size: cover;
+    }
+  
+    .ices{
+      height: 25%;
+      word-wrap: break-word;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      padding: 10px;
+      
+      }
+  
+     
+        .section93{
+          width : 30%;
+          border: 0px solid black; 
+          display: flex;
+          flex-direction: column;
+        }
+       
+  
+  
+  
+    footer{
+        height: 50vh;
+        border: 0px solid blue;
+       
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        margin-top: 80px;
+  
+    }
+    .footmenu{
+        height: 85%;
+        border: 0px solid red;
+        display: flex;
+        background-color: rgba(0, 0, 0, 0.711);
+        padding: 50px;
+    }
+    .footmenu > div {
+        width: 25%;
+        border: 0px solid green;
+    }
+    .dropper{
+        display: flex;
+        flex-direction: column;
+        font-size: 13px;
+        color: white!important;
+        gap: 5px;
+    }
+    .footfooter{
+        background-color: #333333;
+        height: 15%;
+        border: 0px solid blue;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 50px;
+    }
+    .copyrig{
+        display: flex;
+        align-items: center;
+        width: 35%;
+        border: 0px solid red;
+        color: white;
+        font-size: 13px;
+    }
+    .fmenu{
+        width: 50%;
+        border: 0px solid red; 
+        display: flex;
+        gap: 10px;
+    }
+    .fmenu > a{
+        width: 20%;
+        border: 0px solid blue;  
+        font-size: 13px;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        color: white;
+    }
+    .uop{
+        width: 25%!important;
+    }
+  }
+  
+  
+  /*###Tablet(medium)###*/
+  @media screen and (min-width : 768px) and (max-width : 1023px){
+  body{
+    position: relative;
+    
+  } 
+  #brownmenu{
+  position: fixed;
+  top: 5%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  
+  z-index: 999;
+  
+  }
+  .omenu{
+  display: flex;
+  flex-direction: column;
+  height: 45%;
+  border: 0px solid blue;
+  padding: 30px 50px;
+  gap: 10px;
+  
+  }
+  .omenu > a {
+  color: rgba(255, 255, 255, 0.397);
+  text-decoration: none;
+  font-size: 14px;
+  }
+  
+  .cmenu{
+  display: flex;
+  flex-direction: column;
+  height: 30%;
+  border: solid red;
+  padding: 30px 20px;
+  gap: 35px;
+  margin: auto;
+  margin-top: 20px;
+  width: 90%;
+  border-radius: 10px;
+  }
+  .cmenu > a {
+  color: rgba(255, 255, 255, 0.588);
+  text-decoration: none;
+  font-size: 14px;
+  border-bottom: 1px 1px solid rgba(255, 255, 255, 0.843);
+  padding: 0 0 10px 0;
+  
+  }
+  .nogree{
+  border: none!important;
+  }
+  
+  #tatas{
+  display: none;
+  }
+  #hiders{
+  display: none;
+  }
+  
+  .thideme{
+        display: none;
+    }
+    #menu{
+      display: none;
+    }
+    .tshowme{
+        display: block;
+    }
+    header{
+        height: 100px;
+       border: 0px solid red;
+        
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 30px; 
+    }
+    header > div {
+        height: 50%;
+        border: 0px solid black;
+    }
+    .tophead{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: 0px solid black;
+        padding: 0px 30px;
+    }
+    .mytimes{
+        display: none;
+      
+    }
+    .mylogo{
+        display: flex;
+        align-items: center;
+        height: 100%;
+        width: 25%;
+        border: 0px solid black;
+        font-size: 29px;
+        font-weight: bolder;
+        color: #ff3333;
+    }
+   
+    .myjew{
+     display: flex;
+     justify-content: end;
+     gap: 10px;
+     height: 100%;
+     width: 35%;
+     border: 0px solid black;
+    }
+    .jew1{
+       display: flex;
+       align-items: center;
+        border: 0px solid black;
+        width: 80%;
+        margin-top: 15px;
+    }
+    .jew2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 0px solid black;  
+        width: 20%;
+        font-size: 29px;
+    }
+   
+    .sdownhead{
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 30px;
+        border-bottom: 1px 1px solid rgba(236, 110, 110, 0.295); 
+        
+    }
+    .downhead{
+        display: flex;
+        overflow-x: scroll; /* add a horizontal scroll bar */
+        white-space: nowrap; /* prevent the items from wrapping to a new line */
+        border: 0px solid red;
+        width: 100%;
+    }
+    .downhead > a {
+        flex: 0 0 auto; /* set the flex-grow, flex-shrink, and flex-basis properties to auto */
+        width: 11.11%;
+        height: 100%;
+        border: 0px solid black; 
+        text-decoration: none;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        color: black;
+    }
+    .nyt{
+        width: 18%!important;
+    }
+    
+    .menuhead{
+        display: none;
+    }
+    main{
+       
+       border: 0px solid red;
+        padding: 0px 30px;
+      
+        
+    }
+  
+    .section1{
+        height: 160vh;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        border-bottom: 1px solid black;
+        padding: 0px 0 30px 0;
+    }
+    .sec1{
+     height: 16%;
+     width: 100%;
+     border: 0px solid red;
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+     order: 2;
+    }
+  .box1{
+    height: 50%;
+    border: 0px solid black;
+    display: flex;
+    border: 1px solid rgba(0, 0, 0, 0.13); 
+    border-radius: 5px;
+    
+  }
+  .imag1{
+    width: 30%;
+    border: 0px solid black;
+    background-image: url(https://botaworld.com/portfolio/vanguard/images/EFCC-BAWa.webp);
+  
+    background-size: cover;
+  }
+  .desc1{
+    width: 70%;
+    border: 0px solid black; 
+    padding: 10px; 
+  }
+  
+  .tope{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    
+  }
+  .wrapme{
+    max-width: 100%;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+  .box2{
+    height: 50%;
+    border: 0px solid black;
+    display: flex;
+    border: 1px solid rgba(0, 0, 0, 0.13); 
+    border-radius: 5px;
+    
+  }
+  .imag2{
+    width: 30%;
+    border: 0px solid black;
+    background-image: url(https://botaworld.com/portfolio/vanguard/images/Adebanjo.webp);
+  
+    background-size: cover;
+  }
+  .desc2{
+    width: 70%;
+    border: 0px solid black; 
+    padding: 10px; 
+  }
+  
+  
+    .sec2{
+        height: 32%;
+        width: 100%;
+        border: 0px solid red;
+        display: flex;
+        flex-direction: column;
+        order: 1;
+        border: 1px solid rgba(0, 0, 0, 0.13); 
+        border-radius: 5px;
+    }
+    .imag3{
+        height: 85%;
+        border: 0px solid black;
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/Tinubu-Buhari.webp);
+  
+        background-size: cover;
+    }
+    .desc3{
+        height: 15%;
+        border: 0px solid black; 
+        padding: 10px; 
+    }
+  
+    .sec3{
+        height: 52%;
+        width: 100%;
+     border: 0px solid red; 
+     display: flex;
+     flex-direction: column;
+     order: 3;
+     margin-top: 20px;
+    }
+    .topme{
+     height: 10%;
+     border-top: 1px solid black; 
+     display: flex;
+     align-items: center;
+     font-size: 16px;
+  
+    }
+    .bodyme{
+        height: 70%;
+        border: 0px solid black; 
+        display: flex;
+        flex-direction: column;  
+        overflow-y: scroll; /* add a horizontal scroll bar */
+      margin-bottom: 40px;
+       
+    }
+    .bless{
+        flex: 0 0 auto; /* set the flex-grow, flex-shrink, and flex-basis properties to auto */
+        display: flex;
+        flex-direction: row-reverse;
+        height: 25%;
+        border: 0px solid black; 
+        border: 1px solid rgba(0, 0, 0, 0.13); 
+        border-radius: 5px;
+       
+    }
+    .afri{
+        width: 80%;
+        border: 0px solid blue; 
+    }
+    .writeup{
+        height: 100%;
+        border: 0px solid blue;
+        padding: 10px;
+    }
+   
+    .boximage1{
+        
+        width: 20%;
+        border: 0px solid green;  
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/PTI.webp);
+  
+        background-size: cover;
+    }
+    .boximage2{
+        
+        width: 20%;
+        border: 0px solid green;  
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/Olumuyiwa-Adejobi.webp);
+  
+        background-size: cover;
+    }
+    .boximage3{
+        
+        width: 20%;
+        border: 0px solid green;  
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/Flying-Eagles-edited.webp);
+  
+        background-size: cover;
+    }
+    .boximage4{
+        
+        width: 20%;
+        border: 0px solid green;  
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/Ortom-e1648485266439.webp);
+  
+        background-size: cover;
+    }
+    .boximage5{
+        
+        width: 20%;
+        border: 0px solid green;  
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/201512566b3bc978721.webp);
+  
+        background-size: cover;
+    }
+    .boximage6{
+        
+        width: 20%;
+        border: 0px solid green;  
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/KANU.webp);
+  
+        background-size: cover;
+    }
+    .boximage7{
+        
+        width: 20%;
+        border: 0px solid green;  
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/Alcaraz-scaled.webp);
+  
+        background-size: cover;
+    }
+    .liner{
+        flex: 0 0 auto; /* set the flex-grow, flex-shrink, and flex-basis properties to auto */
+        height: 5%;
+        border-left: 2px solid red; 
+        margin-left: 10px;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        position: relative;
+    }
+    .circ{
+        background-color: red;
+        border: 0px solid red;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        position: absolute;
+        left: -8px;
+    }
+    .timer{
+        position: absolute;
+        left: 20px; 
+        border: 0px solid black;
+        width: 12%;
+        height: 80%;
+        display: flex;
+        align-items: center;
+        color: red;
+        font-weight: bold;
+    }
+    .downme{
+        height: 10%;
+        border: solid red; 
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+  
+  
+    .section2{
+        height: 180vh;
+        border: 0px solid red; 
+        border-bottom: 1px solid black;
+        padding: 0px 0 30px 0;
+    }
+    .poli{
+        display: flex;
+        align-items: center;
+        height: 5%;
+        border: 0px solid black; 
+    }
+    .fase{
+        font-size: 16px;
+       color: red;
+       padding: 5px;
+       margin: -10px 10px 0px 0px;
+      
+    }
+    .section21{
+        height: 95%;
+        border: 0px solid black; 
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+  
+    }
+    .section21 > div {
+        width: 100%;
+        
+        border: 0px solid black; 
+  
+    }
+    .poli1{
+        height: 40%;
+        display: flex;
+        flex-direction: column;
+        border: 0px solid black; 
+        border: 1px solid rgba(0, 0, 0, 0.13)!important;
+        border-radius: 5px;
+    }
+    .imag4{
+      height: 80%;
+      border: 0px solid black;
+      background-image: url(https://botaworld.com/portfolio/vanguard/images/image-419.webp);
+  
+      background-size: cover;
+    }
+    .desc4{
+        height: 20%;
+        border: 0px solid black;
+        font-size: 16px;
+        font-weight: bold;
+        padding: 10px;
+      }
+      .desc5{
+        display: none;
+      
+      }
+      .poli2{
+        height: 60%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      .poli2 > div {
+        height: 25%;
+        width: 100%;
+        border: 0px solid black;
+      }
+      .player1, .player2, .player3, .player4{
+        display: flex;
+        border: 1px solid rgba(0, 0, 0, 0.13)!important;
+        border-radius: 5px;
+        
+      }
+      .imag5, .imag6, .imag7, .imag8{
+        width: 30%;
+        height: 100%;
+        border: 0px solid black;
+      }
+      .imag5{
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/oshiomole-1.webp);
+  
+        background-size: cover;
+      }
+      .imag6{
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/Aisha.webp);
+  
+        background-size: cover;
+      }
+      .imag7{
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/image-416.webp);
+  
+        background-size: cover;
+      }
+      .imag8{
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/image-414.webp);
+  
+        background-size: cover;
+      }
+      .play2{
+        width: 70%;
+        height: 100%;
+        border: 0px solid black;
+        padding: 10px;
+      }
+      .section3{
+        height: 100vh;
+        border: 0px solid red; 
+        border-bottom: 1px solid black;
+        padding: 0px 0 30px 0;
+     
+    }
+      .vid1{
+        display: flex;
+        align-items: center;
+        height: 10%;
+        border: 0px solid black;
+      }
+      .section31{
+        height: 90%;
+        border: 0px solid black; 
+        display: flex;
+        flex-direction: column;
+    }
+    .section31 > div {
+        height: 25%;
+        width: 100%;
+        border: 0px solid black; 
+    }
+    .game1{
+        display: flex;
+        border: 1px solid rgba(0, 0, 0, 0.13)!important;
+        border-radius: 5px;
+    }
+    .imag9, .imag10, .imag11, .imag12{
+        height: 100%;
+        width: 30%;
+        border: 0px solid black;
+      }
+      .imag9{
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/F211C00C-7A7D-4D84-B2E6-C43B6DF19D7C-scaled.webp);
+  
+        background-size: cover;
+      }
+      .imag10{
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/1A149192-F672-4DC8-9F37-E6BA33E79DBE-scaled.webp);
+  
+        background-size: cover;
+      }
+      .imag11{
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/99FE241B-CDF1-45F0-95E4-A2DE8F716A0A-scaled.webp);
+  
+        background-size: cover;
+      }
+      .imag12{
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/ACA99C63-48C1-47DF-A3FB-F5B3F2E56040-scaled.webp);
+  
+        background-size: cover;
+      }
+      .play3{
+        height: 100%;
+        width: 70%;
+        border: 0px solid black;
+        padding: 10px;
+      }
+  
+      .imag13{
+        height: 80%;
+        border: 0px solid black;
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/Police-5.webp);
+  
+        background-size: cover;
+      }
+      .imag14, .imag15, .imag16, .imag17{
+        width: 30%;
+        height: 100%;
+        border: 0px solid black;
+      }
+      .imag14{
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/image-415.webp);
+  
+        background-size: cover;
+      }
+      .imag15{
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/Olumuyiwa-Adejobi.webp);
+  
+        background-size: cover;
+      }
+      .imag16{
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/201512566b3bc978721.webp);
+  
+        background-size: cover;
+      }
+      .imag17{
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/KANU.webp);
+  
+        background-size: cover;
+      }
+  
+      .section5{
+        height: 40vh;
+        border: 0px solid black; 
+        display: flex;
+        flex-direction: column;
+        border-bottom: 1px solid black;
+        padding: 0px 0 30px 0;
+        
+    }
+    .boli{
+        display: flex;
+        align-items: center;
+        color: red;
+        height: 30%;
+        border: 0px solid green;
+    }
+    .section51{
+       
+        height: 70%;
+        display: flex; /* set the display property to flex */
+        overflow-x: scroll; /* add a horizontal scroll bar */
+       
+        border: 0px solid red;
+    }
+       
+    
+    .flex-item {
+        flex: 0 0 auto; /* set the flex-grow, flex-shrink, and flex-basis properties to auto */
+        width: 70%; /* set a fixed width for each item */
+        height: 80%; /* set a fixed height for each item */
+        margin-right: 10px; /* add a margin to separate the items */
+        border: 0px solid blue;
+        display: flex;
+        border: 1px solid rgba(0, 0, 0, 0.13)!important;
+        border-radius: 5px;
+    }
+    .saxy{
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        border: 0px solid black;
+    }
+    .elect1{
+        display: flex;
+        align-items: center;
+        height: 30%;
+        border: 0px solid black;
+        position: relative;
+    }
+    .circt{
+        background-color: red;
+        border: 0px solid red;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        position: absolute;
+        left: 8px;
+    }
+    .timert{
+        position: absolute;
+        left: 28px; 
+        border: 0px solid black;
+        width: 50%;
+        height: 80%;
+        display: flex;
+        align-items: center;
+        color: red;
+        font-weight: bold;
+    }
+    .elect2{
+        height: 70%;
+        border: 0px solid black;
+        padding: 10px;
+    }
+    .imag18{
+        width: 40%;
+        border: 0px solid black;
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/peter-obi.webp);
+  
+        background-size: cover;
+    }
+    .imag19{
+        width: 40%;
+        border: 0px solid black;
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/image-419.webp);
+  
+        background-size: cover;
+    }
+    .imag20{
+        width: 40%;
+        border: 0px solid black;
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/Chairman-of-occasion-Engr.-Segun-Oni-620x400-1.webp);
+  
+        background-size: cover;
+    }
+    .imag21{
+        width: 40%;
+        border: 0px solid black;
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/Atiku-and-Wike.webp);
+  
+        background-size: cover;
+    }
+    .imag22{
+        width: 40%;
+        border: 0px solid black;
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/peter-obi.webp);
+  
+        background-size: cover;
+    }
+  
+  
+    .imag23{
+        height: 80%;
+        border: 0px solid black;
+      }
+      .imag24, .imag25, .imag26, .imag27{
+        width: 30%;
+        height: 100%;
+        border: 0px solid black;
+      }
+  
+      .imag23{
+      
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/Tonto-Churchill.webp);
+  
+        background-size: cover;
+      }
+      .imag24, .imag25, .imag26, .imag27{
+       
+        border: 0px solid black;
+      }
+      .imag24{
+      
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/Tonto-Dikeh-and-son.webp);
+  
+        background-size: cover;
+      }
+      .imag25{
+       
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/WhatsApp-Image-2023-02-17-at-6.48.52-PM.webp);
+  
+        background-size: cover;
+      }
+  
+      .imag26{
+      
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/Ime-Bishop-Umoh.webp);
+  
+        background-size: cover;
+      }
+      .imag27{
+     
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/Chidi-Biography.webp);
+  
+        background-size: cover;
+      }
+  
+  
+  
+  
+  
+  
+      .imag28, .imag29, .imag30, .imag31{
+        width: 30%;
+        height: 100%;
+        border: 0px solid black;
+      }
+      .imag28{
+     
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/PHOTO-2023-02-18-09-12-39_1.webp);
+  
+        background-size: cover;
+      }
+      .imag29{
+     
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/Asuz.webp);
+  
+        background-size: cover;
+      }
+      .imag30{
+     
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/stdstaph.webp);
+  
+        background-size: cover;
+      }
+      .imag31{
+     
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/diabetis-1024x588.webp);
+  
+        background-size: cover;
+      }
+  
+      .section6{
+        height: 200vh;
+        border: 0px solid black; 
+        border-bottom: 1px solid black;
+        padding: 0px 0 30px 0;
+     
+    }
+      .vid6{
+        display: flex;
+        align-items: center;
+        height: 5%;
+        border: 0px solid black;
+      }
+      .section61{
+        height: 95%;
+        border: 0px solid black; 
+        display: flex;
+        flex-direction: column;
+    }
+    .section61 > div {
+        height: 33.33%;
+        width: 100%;
+        border: 0px solid black; 
+    }
+    .gamero{
+        display: flex;
+        flex-direction: column;
+    }
+    .imag32, .imag33, .imag34{
+        height: 90%;
+        border: 0px solid black;
+      }
+      .imag32{
+     
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/CA3.webp);
+  
+        background-size: cover;
+      }
+      .imag33{
+     
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/CA1.webp);
+  
+        background-size: cover;
+      }
+      .imag34{
+     
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/IMG-20230123-WA0042.webp);
+  
+        background-size: cover;
+      }
+  
+      .play6{
+        height: 10%;
+        border: 0px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+  
+      .imag35{
+        height: 80%;
+        border: 0px solid black;
+  
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/Nigerian-map-e1648026092438.webp);
+  
+        background-size: cover;
+      }
+      .imag36, .imag37, .imag38, .imag39{
+        width: 30%;
+        height: 100%;
+        border: 0px solid black;
+      }
+      .imag36{
+     
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/bank.webp);
+  
+        background-size: cover;
+      }
+      .imag37{
+     
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/image-410.webp);
+  
+        background-size: cover;
+      }
+      .imag38{
+     
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/itel-and-Airtel.webp);
+  
+        background-size: cover;
+      }
+      .imag39{
+     
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/Apapa-Port-railway.webp);
+  
+        background-size: cover;
+      }
+  
+      .imag40, .imag41, .imag42, .imag43{
+        height: 100%;
+        width: 30%;
+        border: 0px solid black;
+      }
+      .imag40{
+     
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/PSN.webp);
+  
+        background-size: cover;
+      }
+      .imag41{
+     
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/image-381.webp);
+  
+        background-size: cover;
+      }
+      .imag42{
+     
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/Doctors.webp);
+  
+        background-size: cover;
+      }
+      .imag43{
+     
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/JAGAL.webp);
+  
+        background-size: cover;
+      }
+      .section7{
+        height: 80vh;
+        border: 0px solid black; 
+        display: flex;
+        flex-direction: column;
+        border-bottom: 1px solid black;
+    }
+    .edu{
+        height: 10%;
+        border: 0px solid red; 
+    }
+    .edubody{
+        height: 80%;
+        border: 0px solid blue; 
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .edubody > div {
+        height: 25%;
+        border: 0px solid black; 
+    }
+    .edugame{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        border: 0px solid black; 
+    }
+    .miller{
+        width: 80%;
+        border: 0px solid blue; 
+    }
+    .imag44, .imag45, .imag46, .imag47{
+        width: 20%;
+        border: 0px solid black;
+      }
+  
+    .eduload{
+        height: 10%;
+        border: 0px solid red; 
+    }
+  
+    .section8{
+      height: 300vh;
+      border: 0px solid black; 
+      border-bottom: 1px solid black;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    
+      }
+      .section81{
+        display: none;
+       align-items: center;
+       justify-content: center;
+        font-size: 36px;
+       width : 100%;
+       height: 120px;
+       border: 0px solid black; 
+      }
+    
+     
+      .section82{
+        width : 100%;
+        height: 300vh;
+        border: 0px solid black; 
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+     
+      .po1{
+        display: flex;
+        align-items: center;
+  justify-content: center;
+         height: 3%;
+         border: 0px solid blue; 
+         order: 3;
+      }
+      .bikert{
+        display: flex;
+  
+       font-size: 40px;
+       gap: 10px;
+      
+      }
+      .po2{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 4%;
+        border: 0px solid blue;
+      color: red;
+      font-size: 18px;
+      font-weight: bold;
+      order: 1;
+      }
+      .po3{
+        display: flex;
+        align-items: center;
+        height: 5%;
+        border: 0px solid blue;
+        font-size: 22px;
+        order: 2;
+      }
+      .po4{
+        height: 30%;
+        border: 0px solid blue;
+  
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/image-530.webp);
+  
+        background-size: cover;
+        order: 4;
+      }
+      .po5{
+        height: 15%;
+        border: 0px solid blue;
+        order: 5;
+        padding: 10px;
+        text-align: justify;
+      }
+      .po6{
+        height: 10%;
+        border-left: 1px solid red;
+        background-color: rgb(177, 179, 180);
+        padding: 20px;
+        order: 6;
+      }
+      ul {
+      
+       
+        list-style-type: circle;
+     
+      }
+      li {
+        padding: 10px 20px;
+      }
+      .po7{
+        height: 30%;
+        border: 0px solid blue;
+        word-wrap: break-word;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    order: 7;
+    padding: 10px;
+    text-align: justify;
+      }
+      .section83{
+  
+        width : 30%;
+        border: 0px solid black; 
+        display: none;
+        flex-direction: column;
+      }
+      .jol1{
+        height: 50%;
+        border: 0px solid black;
+      }
+      .latest{
+        display: flex;
+        align-items: center;
+        font-size: 34px;
+        font-weight: bold;
+        height: 10%;
+        border: 0px solid black;
+      }
+      .mysec1, .mysec2, .mysec3, .mysec4, .mysec5{
+        height: 8%;
+        padding: 10px;
+        border: 0px solid black;
+        font-weight: bold;
+      }
+     
+  
+      .section9{
+        height: 140vh;
+        border: 0px solid black; 
+        border-bottom: 1px solid black;
+        display: flex;
+        flex-direction: column;
+      margin-bottom: 180px;
+        }
+        .section91{
+          display: none;
+         width : 100%;
+         border: 0px solid black; 
+        }
+        .section92{
+          height: 136vh;
+          width : 100%;
+          border: 0px solid black; 
+          display: flex;
+         flex-wrap: wrap;
+         align-content: flex-start;
+        gap: 10px 10px; /* row gap is 20px, column gap is 10px   */
+      
+        }
+  
+        .mystories{
+          display: flex;
+          align-items: center;
+          height: 5%;
+          font-size: 220%;
+          width : 100%;
+          border: 0px solid black; 
+          color: #ff3333;
+        }
+  
+        .page1, .page2, .page3, .page4, .page5, .page6{
+           display: flex;
+           flex-direction: column;
+          width: 32.3%;
+          height: 21%;
+          border: 0px solid black; 
+  
+        }
+  .pager1, .pager2, .pager3, .pager4, .pager5, .pager6{
+  height: 70%;
+  border: 0px solid black;
+  }
+  .pager1{
+  background-image: url(https://botaworld.com/portfolio/vanguard/images/image-537.webp);
+  
+  background-size: cover;
+  }
+  .pager2{
+  background-image: url(https://botaworld.com/portfolio/vanguard/images/Abdulrasheed-Bawa.webp);
+  
+        background-size: cover; 
+  }
+  .pager3{
+  background-image: url(https://botaworld.com/portfolio/vanguard/images/Nigerian-Soldiers-Nigerian-Army-North-East.webp);
+  
+  background-size: cover;
+  }
+  .pager4{
+  background-image: url(https://botaworld.com/portfolio/vanguard/images/Accident-scene.webp);
+  
+  background-size: cover;
+  }
+  .pager5{
+  background-image: url(https://botaworld.com/portfolio/vanguard/images/TB-Joshua-3.webp);
+  
+  background-size: cover;
+  }
+  .pager6{
+  background-image: url(https://botaworld.com/portfolio/vanguard/images/Troops.webp);
+  
+  background-size: cover;
+  }
+  
+  .ice{
+  height: 30%;
+  word-wrap: break-word;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  padding: 10px;
+  
+  }
+  
+  
+  
+  
+  .page7, .page8, .page9, .page10, .page11, .page12{
+    display: flex;
+    flex-direction: column;
+   width: 32.3%;
+   height: 26%;
+   border: 0px solid black; 
+  
+  }
+  .pager7, .pager8, .pager9, .pager10, .pager11, .pager12{
+  height: 75%;
+  border: 0px solid black;
+  }
+  
+  .pager7{
+    background-image: url(https://botaworld.com/portfolio/vanguard/images/image-537.webp);
+    
+    background-size: cover;
+    }
+    .pager8{
+    background-image: url(https://botaworld.com/portfolio/vanguard/images/Abdulrasheed-Bawa.webp);
+    
+          background-size: cover; 
+    }
+    .pager9{
+    background-image: url(https://botaworld.com/portfolio/vanguard/images/Nigerian-Soldiers-Nigerian-Army-North-East.webp);
+    
+    background-size: cover;
+    }
+    .pager10{
+    background-image: url(https://botaworld.com/portfolio/vanguard/images/Accident-scene.webp);
+    
+    background-size: cover;
+    }
+    .pager11{
+    background-image: url(https://botaworld.com/portfolio/vanguard/images/TB-Joshua-3.webp);
+    
+    background-size: cover;
+    }
+    .pager12{
+    background-image: url(https://botaworld.com/portfolio/vanguard/images/Troops.webp);
+    
+    background-size: cover;
+    }
+  
+    .ices{
+      height: 25%;
+      word-wrap: break-word;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      padding: 10px;
+      
+      }
+  
+     
+        .section93{
+          width : 30%;
+          border: 0px solid black; 
+          display: none;
+          flex-direction: column;
+        }
+       
+  
+  
+  
+  
+  
+    footer{
+        height: 60vh;
+        border: 0px solid blue;
+       
+        display: flex;
+        flex-direction: column;
+       margin-top: 120px;
+    }
+    .footf{
+        height: 15%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-top: 1px 1px solid rgba(255, 17, 0, 0.321);
+        padding: 0 30px;
+    }
+    .footf > a {
+        display: flex;
+        align-items: center;
+        width: 25%;
+        height: 100%;
+        border: 0px solid green;
+        color: black;
+        text-decoration: none;
+    }
+    .footmenu{
+        height: 70%;
+        border: 0px solid red;
+        display: flex;
+       
+        background-color: rgba(0, 0, 0, 0.711);
+        padding: 40px 30px;
+    }
+    .footmenu > div {
+      
+        width: 25%;
+        border: 0px solid green;
+    }
+    .dropper{
+        display: flex;
+        flex-direction: column;
+        font-size: 13px;
+        color: white!important;
+        gap: 5px;
+    }
+    .footfooter{
+        height: 15%;
+        border: 0px solid blue;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 30px;
+        background-color: #333333;
+    }
+    .copyrig{
+        width: 60%;
+        border: 0px solid red;
+        color: white;
+    }
+    .fmenu{
+        display: none;
+       
+    }
+   
+  }
+  
+  
+  /*### Smartphones (portrait and landscape)(small)### */
+  @media screen and (min-width : 0px) and (max-width : 767px){
+  body{
+    position: relative;
+    
+  } 
+  #brownmenu{
+  position: fixed;
+  top:  60px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  z-index: 999;
+  
+  }
+  
+  .omenu{
+  display: flex;
+  flex-direction: column;
+  height: 20%;
+  border: 0px solid blue;
+  padding: 30px 25px;
+  gap: 4px;
+  margin-top: -15px;
+  
+  }
+  .omenu > a {
+  color: rgba(255, 255, 255, 0.397);
+  text-decoration: none;
+  font-size: 11px;
+  }
+  
+  .cmenu{
+  display: flex;
+  flex-direction: column;
+  height: 30%;
+  border: solid red;
+  margin: auto;
+  width: 90%;
+  margin-top: 170px;
+  gap: 10px;
+  padding: 10px 20px;
+  
+  }
+  .cmenu > a {
+  color: rgba(255, 255, 255, 0.588);
+  text-decoration: none;
+  font-size: 11px;
+  border-bottom: 1px 1px solid rgba(255, 255, 255, 0.843);
+  padding: 0 0 5px 0;
+  }
+  .nogree{
+  border: none!important;
+  }
+  #tatas{
+  display: none;
+  }
+  #hiders{
+  display: none;
+  } 
+  
+  .thideme{
+        display: none;
+    }
+    #menu{
+      display: none;
+    }
+    .tshowme{
+        display: block;
+    }
+    header{
+        height: 120px;
+       border: 0px solid red;
+       
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 30px;
+        
+    }
+    header > div {
+        height: 50%;
+        border: 0px solid black;
+    }
+    #menu{
+      display: none;
+    }
+    .tophead{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: 0px solid black;
+        padding: 0px 10px;
+        
+    }
+    .mytimes{
+        display: none;
+      
+    }
+    .mylogo{
+        display: flex;
+        align-items: center;
+        height: 100%;
+        width: 40%;
+        border: 0px solid black;
+        font-size: 28px;
+        font-weight: bolder;
+        color: #ff3333;
+        padding: 10px 0 0 0;
+    }
+    .myjew{
+     display: flex;
+     justify-content: end;
+     gap: 10px;
+     height: 100%;
+     width: 55%;
+     border: 0px solid black;
+    }
+    .jew1{
+        display: flex;
+        align-items: center;
+        border: 0px solid black;
+        width: 70%;
+        height: 100%;
+       padding: 10px 0 0 0;
+    }
+    .jew2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 0px solid black;  
+        width: 30%;
+        font-size: 23px;
+    }
+    .sdownhead{
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 10px;
+        border: 1px solid rgba(236, 110, 110, 0.295); 
+    }
+    .downhead{
+        display: flex;
+        overflow-x: scroll; /* add a horizontal scroll bar */
+        white-space: nowrap; /* prevent the items from wrapping to a new line */
+        border: 0px solid red;
+        width: 100%;
+    }
+    .downhead > a {
+        flex: 0 0 auto; /* set the flex-grow, flex-shrink, and flex-basis properties to auto */
+        width: 25%;
+        height: 100%;
+        border: 0px solid black; 
+        text-decoration: none;
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+        color: black;
+    }
+    .nyt{
+        width: 40%!important; 
+    }
+    .menuhead{
+        display: none;
+    }
+    main{
+       
+       border: 0px solid red;
+        padding: 0px 10px;
+      
+        
+    }
+  
+    .section1{
+        height: 160vh;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        border-bottom: 1px solid black;
+        padding: 0px 0 30px 0;
+    }
+    .sec1{
+     height: 15%;
+     width: 100%;
+     border: 0px solid red;
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+     order: 2;
+    }
+  .box1{
+    height: 50%;
+    border: 0px solid black;
+    display: flex;
+    border: 1px solid rgba(0, 0, 0, 0.13); 
+    border-radius: 5px;
+    
+  }
+  .imag1{
+    width: 30%;
+    border: 0px solid black;
+    background-image: url(https://botaworld.com/portfolio/vanguard/images/EFCC-BAWa.webp);
+  
+    background-size: cover;
+  }
+  .desc1{
+    width: 70%;
+    border: 0px solid black; 
+    padding: 10px;
+  }
+  .tope{
+    text-decoration: none;
+    color: black;
+    
+  }
+  .wrapme{
+    max-width: 100%;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+  
+  
+  .box2{
+    height: 50%;
+    border: 0px solid black;
+    display: flex;
+    border: 1px solid rgba(0, 0, 0, 0.13); 
+    border-radius: 5px;
+    
+  }
+  .imag2{
+    width: 30%;
+    border: 0px solid black;
+    background-image: url(https://botaworld.com/portfolio/vanguard/images/Adebanjo.webp);
+  
+    background-size: cover;
+  }
+  .desc2{
+    width: 70%;
+    border: 0px solid black; 
+    padding: 10px;
+  }
+  
+  
+    .sec2{
+        height: 35%;
+        width: 100%;
+        border: 0px solid red;
+        display: flex;
+        flex-direction: column;
+        order: 1;
+        border: 1px solid rgba(0, 0, 0, 0.13); 
+        border-radius: 5px;
+    }
+    .imag3{
+        height: 70%;
+        border: 0px solid black;
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/Tinubu-Buhari.webp);
+  
+        background-size: cover;
+    }
+    .desc3{
+        height: 30%;
+        border: 0px solid black; 
+        padding: 10px;
+        font-size: 24px;
+    }
+  
+    .sec3{
+        height: 50%;
+        width: 100%;
+     border: 0px solid red; 
+     display: flex;
+     flex-direction: column;
+     order: 3;
+     margin-top: 20px;
+    }
+    .topme{
+     height: 10%;
+     border-top: 1px solid black; 
+     display: flex;
+     align-items: center;
+    }
+    .bodyme{
+        height: 70%;
+        border: 0px solid black; 
+        display: flex;
+        flex-direction: column;  
+        overflow-y: scroll; /* add a horizontal scroll bar */
+        margin-bottom: 40px;
+       
+    }
+    .bless{
+        flex: 0 0 auto; /* set the flex-grow, flex-shrink, and flex-basis properties to auto */
+        display: flex;
+        flex-direction: row-reverse;
+        height: 20%;
+        border: 0px solid black; 
+        border: 1px solid rgba(0, 0, 0, 0.13); 
+        border-radius: 5px;
+       
+    }
+    .afri{
+        width: 65%;
+        border: 0px solid blue; 
+    }
+    .writeup{
+        height: 100%;
+        border: 0px solid blue; 
+        padding: 10px;
+    }
+  
+    .boximage1{
+        
+        width: 35%;
+        border: 0px solid green;  
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/PTI.webp);
+  
+        background-size: cover;
+    }
+    .boximage2{
+        
+        width: 35%;
+        border: 0px solid green;  
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/Olumuyiwa-Adejobi.webp);
+  
+        background-size: cover;
+    }
+    .boximage3{
+        
+        width: 35%;
+        border: 0px solid green;  
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/Flying-Eagles-edited.webp);
+  
+        background-size: cover;
+    }
+    .boximage4{
+        
+        width: 35%;
+        border: 0px solid green;  
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/Ortom-e1648485266439.webp);
+  
+        background-size: cover;
+    }
+    .boximage5{
+        
+        width: 35%;
+        border: 0px solid green;  
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/201512566b3bc978721.webp);
+  
+        background-size: cover;
+    }
+    .boximage6{
+        
+        width: 35%;
+        border: 0px solid green;  
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/KANU.webp);
+  
+        background-size: cover;
+    }
+    .boximage7{
+        
+        width: 35%;
+        border: 0px solid green;  
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/Alcaraz-scaled.webp);
+  
+        background-size: cover;
+    }
+    .liner{
+        flex: 0 0 auto; /* set the flex-grow, flex-shrink, and flex-basis properties to auto */
+        height: 8%;
+        border-left: 2px solid red; 
+        margin-left: 10px;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        position: relative;
+    }
+    .circ{
+        background-color: red;
+        border: 0px solid red;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        position: absolute;
+        left: -8px;
+    }
+    .timer{
+        position: absolute;
+        left: 20px; 
+        border: 0px solid black;
+        width: 30%;
+        height: 80%;
+        display: flex;
+        align-items: center;
+        color: red;
+    }
+    .downme{
+        height: 10%;
+        border: solid red; 
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+  
+  
+    .section2{
+        height: 170vh;
+        border: 0px solid black; 
+        border-bottom: 1px solid black;
+        padding: 0px 0 30px 0;
+        
+    }
+    .poli{
+        display: flex;
+        align-items: center;
+        height: 5%;
+        border: 0px solid black; 
+       
+    }
+    .sizer{
+        font-size: 35px; 
+    }
+    .fase{
+        font-size: 26px;
+       color: red;
+       padding: 5px;
+       margin: -10px 10px 0px 0px;
+      
+    }
+    .section21{
+        height: 95%;
+        border: 0px solid black; 
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+  
+    }
+    .section21 > div {
+        width: 100%;
+        height: 50%;
+        border: 0px solid black; 
+  
+    }
+    .poli1{
+        display: flex;
+        flex-direction: column;
+        border: 0px solid black; 
+        border: 1px solid rgba(0, 0, 0, 0.13)!important;
+        border-radius: 5px;
+    }
+    .imag4{
+      height: 80%;
+      border: 0px solid black;
+      background-image: url(https://botaworld.com/portfolio/vanguard/images/image-419.webp);
+  
+      background-size: cover;
+    }
+    .desc4{
+        height: 20%;
+        border: 0px solid black;
+        padding: 10px;
+      }
+      .desc5{
+        display: none;
+        height: 15%;
+        border: 0px solid black;
+      }
+      .poli2{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      .poli2 > div {
+        height: 25%;;
+        width: 100%;
+        border: 0px solid black;
+      }
+      .player1, .player2, .player3, .player4{
+        display: flex;
+        border: 1px solid rgba(0, 0, 0, 0.13)!important;
+        border-radius: 5px;
+        
+      }
+      .imag5, .imag6, .imag7, .imag8{
+        width: 30%;
+        height: 100%;
+        border: 0px solid black;
+      }
+      .imag5{
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/oshiomole-1.webp);
+  
+        background-size: cover;
+      }
+      .imag6{
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/Aisha.webp);
+  
+        background-size: cover;
+      }
+      .imag7{
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/image-416.webp);
+  
+        background-size: cover;
+      }
+      .imag8{
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/image-414.webp);
+  
+        background-size: cover;
+      }
+      .play2{
+        width: 70%;
+        height: 100%;
+        border: 0px solid black;
+        padding: 10px;
+      }
+      .section3{
+        height: 100vh;
+        border: 0px solid red; 
+        border-bottom: 1px solid black;
+        padding: 0px 0 30px 0;
+     
+    }
+      .vid1{
+        display: flex;
+        align-items: center;
+        height: 10%;
+        border: 0px solid black;
+      }
+      .section31{
+        height: 90%;
+        border: 0px solid black; 
+        display: flex;
+        flex-direction: column;
+    }
+    .section31 > div {
+        height: 25%;
+        width: 100%;
+        border: 0px solid black; 
+    }
+    .game1{
+        display: flex;
+        border: 1px solid rgba(0, 0, 0, 0.13)!important;
+        border-radius: 5px;
+    }
+    .imag9, .imag10, .imag11, .imag12{
+        height: 100%;
+        width: 30%;
+        border: 0px solid black;
+      }
+      .imag9{
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/F211C00C-7A7D-4D84-B2E6-C43B6DF19D7C-scaled.webp);
+  
+        background-size: cover;
+      }
+      .imag10{
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/1A149192-F672-4DC8-9F37-E6BA33E79DBE-scaled.webp);
+  
+        background-size: cover;
+      }
+      .imag11{
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/99FE241B-CDF1-45F0-95E4-A2DE8F716A0A-scaled.webp);
+  
+        background-size: cover;
+      }
+      .imag12{
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/ACA99C63-48C1-47DF-A3FB-F5B3F2E56040-scaled.webp);
+  
+        background-size: cover;
+      }
+      .play3{
+        height: 100%;
+        width: 70%;
+        border: 0px solid black;
+        padding: 10px;
+      }
+  
+      .imag13{
+        height: 80%;
+        border: 0px solid black;
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/Police-5.webp);
+  
+        background-size: cover;
+      }
+      .imag14, .imag15, .imag16, .imag17{
+        width: 30%;
+        height: 100%;
+        border: 0px solid black;
+      }
+      .imag14{
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/image-415.webp);
+  
+        background-size: cover;
+      }
+      .imag15{
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/Olumuyiwa-Adejobi.webp);
+  
+        background-size: cover;
+      }
+      .imag16{
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/201512566b3bc978721.webp);
+  
+        background-size: cover;
+      }
+      .imag17{
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/KANU.webp);
+  
+        background-size: cover;
+      }
+      .section5{
+        height: 40vh;
+        border: 0px solid black; 
+        display: flex;
+        flex-direction: column;
+        border-bottom: 1px solid black;
+        padding: 0px 0 30px 0;
+        
+    }
+    .boli{
+        display: flex;
+        align-items: center;
+        height: 30%;
+        border: 0px solid green;
+        color: red;
+    }
+    .section51{
+       
+        height: 70%;
+        display: flex; /* set the display property to flex */
+        overflow-x: scroll; /* add a horizontal scroll bar */
+       
+        border: 0px solid red;
+    }
+       
+    
+    .flex-item {
+        flex: 0 0 auto; /* set the flex-grow, flex-shrink, and flex-basis properties to auto */
+        width: 70%; /* set a fixed width for each item */
+        height: 80%; /* set a fixed height for each item */
+        margin-right: 10px; /* add a margin to separate the items */
+        border: 0px solid blue;
+        display: flex;
+        border: 1px solid rgba(0, 0, 0, 0.13)!important;
+        border-radius: 5px;
+    }
+    .saxy{
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        border: 0px solid black;
+    }
+    .elect1{
+        display: flex;
+        align-items: center;
+        height: 30%;
+        border: 0px solid black;
+        position: relative;
+    }
+    .circt{
+        background-color: red;
+        border: 0px solid red;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        position: absolute;
+        left: 8px;
+    }
+    .timert{
+        position: absolute;
+        left: 28px; 
+        border: 0px solid black;
+        width: 70%;
+        height: 80%;
+        display: flex;
+        align-items: center;
+        color: red;
+        font-weight: bold;
+    }
+    .elect2{
+        height: 70%;
+        border: 0px solid black;
+        padding: 10px;
+        font-size: 12px;
+    }
+  
+    .imag18{
+        width: 40%;
+        border: 0px solid black;
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/peter-obi.webp);
+  
+        background-size: cover;
+    }
+    .imag19{
+        width: 40%;
+        border: 0px solid black;
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/image-419.webp);
+  
+        background-size: cover;
+    }
+    .imag20{
+        width: 40%;
+        border: 0px solid black;
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/Chairman-of-occasion-Engr.-Segun-Oni-620x400-1.webp);
+  
+        background-size: cover;
+    }
+    .imag21{
+        width: 40%;
+        border: 0px solid black;
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/Atiku-and-Wike.webp);
+  
+        background-size: cover;
+    }
+    .imag22{
+        width: 40%;
+        border: 0px solid black;
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/peter-obi.webp);
+  
+        background-size: cover;
+    }
+  
+    .imag23{
+        height: 80%;
+        border: 0px solid black;
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/Tonto-Churchill.webp);
+  
+        background-size: cover;
+      }
+      .imag24, .imag25, .imag26, .imag27{
+        width: 30%;
+        height: 100%;
+        border: 0px solid black;
+      }
+      .imag24{
+      
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/Tonto-Dikeh-and-son.webp);
+  
+        background-size: cover;
+      }
+      .imag25{
+       
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/WhatsApp-Image-2023-02-17-at-6.48.52-PM.webp);
+  
+        background-size: cover;
+      }
+  
+      .imag26{
+      
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/Ime-Bishop-Umoh.webp);
+  
+        background-size: cover;
+      }
+      .imag27{
+     
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/Chidi-Biography.webp);
+  
+        background-size: cover;
+      }
+      .imag28, .imag29, .imag30, .imag31{
+        width: 30%;
+        height: 100%;
+        border: 0px solid black;
+      }
+      .imag28{
+     
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/PHOTO-2023-02-18-09-12-39_1.webp);
+  
+        background-size: cover;
+      }
+      .imag29{
+     
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/Asuz.webp);
+  
+        background-size: cover;
+      }
+      .imag30{
+     
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/stdstaph.webp);
+  
+        background-size: cover;
+      }
+      .imag31{
+     
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/diabetis-1024x588.webp);
+  
+        background-size: cover;
+      }
+  
+      .section6{
+        height: 200vh;
+        border: 0px solid black; 
+        border-bottom: 1px solid black;
+        padding: 0px 0 30px 0;
+     
+    }
+      .vid6{
+        display: flex;
+        align-items: center;
+        height: 5%;
+        border: 0px solid black;
+      }
+      .section61{
+        height: 95%;
+        border: 0px solid black; 
+        display: flex;
+        flex-direction: column;
+    }
+    .section61 > div {
+        height: 33.33%;
+        width: 100%;
+        border: 0px solid black; 
+    }
+    .gamero{
+        display: flex;
+        flex-direction: column;
+    }
+    .imag32, .imag33, .imag34{
+        height: 90%;
+        border: 0px solid black;
+      }
+      .imag32{
+     
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/CA3.webp);
+  
+        background-size: cover;
+      }
+      .imag33{
+     
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/CA1.webp);
+  
+        background-size: cover;
+      }
+      .imag34{
+     
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/IMG-20230123-WA0042.webp);
+  
+        background-size: cover;
+      }
+      .play6{
+        height: 10%;
+        border: 0px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+  
+      .imag35{
+        height: 80%;
+        border: 0px solid black;
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/Nigerian-map-e1648026092438.webp);
+  
+        background-size: cover;
+      }
+      .imag36, .imag37, .imag38, .imag39{
+        width: 30%;
+        height: 100%;
+        border: 0px solid black;
+      }
+      .imag36{
+     
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/bank.webp);
+  
+        background-size: cover;
+      }
+      .imag37{
+     
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/image-410.webp);
+  
+        background-size: cover;
+      }
+      .imag38{
+     
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/itel-and-Airtel.webp);
+  
+        background-size: cover;
+      }
+      .imag39{
+     
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/Apapa-Port-railway.webp);
+  
+        background-size: cover;
+      }
+      .imag40, .imag41, .imag42, .imag43{
+        height: 100%;
+        width: 30%;
+        border: 0px solid black;
+      }
+      .imag40{
+     
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/PSN.webp);
+  
+        background-size: cover;
+      }
+      .imag41{
+     
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/image-381.webp);
+  
+        background-size: cover;
+      }
+      .imag42{
+     
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/Doctors.webp);
+  
+        background-size: cover;
+      }
+      .imag43{
+     
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/JAGAL.webp);
+  
+        background-size: cover;
+      }
+      .section7{
+        height: 120vh;
+        border: 0px solid black; 
+        display: flex;
+        flex-direction: column;
+        border-bottom: 1px solid black;
+    }
+    .edu{
+        height: 10%;
+        border: 0px solid red; 
+    }
+    .edubody{
+        height: 80%;
+        border: 0px solid blue; 
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .edubody > div {
+        height: 25%;
+        border: 0px solid black; 
+    }
+    .edugame{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        border: 0px solid black; 
+    }
+    .miller{
+        width: 70%;
+        border: 0px solid blue; 
+    }
+    .imag44, .imag45, .imag46, .imag47{
+        width: 30%;
+        border: 0px solid black;
+      }
+  
+    .eduload{
+        height: 10%;
+        border: 0px solid red; 
+    }
+  
+    .section8{
+      height: 330vh;
+      border: 0px solid black; 
+      border-bottom: 0px solid black;
+    
+     margin-bottom: 30px;
+    
+      }
+      .section81{
+        display: none;
+       align-items: center;
+       justify-content: center;
+        font-size: 36px;
+       width : 100%;
+       height: 120px;
+       border: 0px solid black; 
+      }
+    
+     
+      .section82{
+        width : 100%;
+      
+        border: 0px solid black; 
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+     
+      .po1{
+        display: flex;
+        align-items: center;
+         justify-content: center;
+         height: 2%;
+         border: 0px solid blue; 
+         order: 3;
+         font-size: 20px;
+      }
+      .bikert{
+        display: flex;
+  
+       font-size: 30px;
+       gap: 10px;
+      
+      }
+      .po2{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 2%;
+        border: 0px solid blue;
+      color: red;
+      font-size: 16px;
+      font-weight: bold;
+      order: 1;
+      }
+      .colp{
+        font-size: 14px;;
+      }
+      .po3{
+        display: flex;
+        align-items: center;
+        height: 3%;
+        border: 0px solid blue;
+        font-size: 20px;
+        order: 2;
+      }
+      .po4{
+        height: 8%;
+        border: 0px solid blue;
+  
+        background-image: url(https://botaworld.com/portfolio/vanguard/images/image-530.webp);
+  
+        background-size: cover;
+        order: 4;
+      }
+      .po5{
+        height: 17%;
+        border: 0px solid blue;
+        order: 5;
+        padding: 10px;
+        text-align: justify;
+      }
+      .po6{
+        height: 10%;
+        border-left: 1px solid red;
+        background-color: rgb(177, 179, 180);
+        padding: 20px;
+        order: 6;
+      }
+      ul {
+      
+       
+        list-style-type: circle;
+     
+      }
+      li {
+        padding: 10px 20px;
+      }
+      .po7{
+        height: 35%;
+        border: 0px solid blue;
+        word-wrap: break-word;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    order: 7;
+    padding: 10px;
+    text-align: justify;
+      }
+     
+      .section83{
+  
+        width : 30%;
+        border: 0px solid black; 
+        display: none;
+        flex-direction: column;
+      }
+      .jol1{
+        height: 50%;
+        border: solid black;
+      }
+      .latest{
+        display: flex;
+        align-items: center;
+        font-size: 34px;
+        font-weight: bold;
+        height: 10%;
+        border: 0px solid black;
+      }
+      .mysec1, .mysec2, .mysec3, .mysec4, .mysec5{
+        height: 8%;
+        padding: 10px;
+        border: 0px solid black;
+        font-weight: bold;
+      }
+     
+  
+      .section9{
+        height: 400vh;
+        border: 0px solid black; 
+        border-bottom: 1px solid black;
+    
+      margin-bottom: 180px;
+        }
+        .section91{
+          display: none;
+         width : 100%;
+         border: 0px solid black; 
+        }
+        .section92{
+          height: 400vh;
+          width : 100%;
+          border: 0px solid black; 
+          display: flex;
+         flex-direction: column;
+        
+        gap: 15px /* row gap is 20px, column gap is 10px   */
+      
+        }
+  
+        .mystories{
+          display: flex;
+          align-items: center;
+          height: 5%;
+          font-size: 190%;
+          width : 100%;
+          border: 0px solid black; 
+          color: #ff3333;
+        }
+  
+        .page1, .page2, .page3, .page4, .page5, .page6{
+           display: flex;
+           flex-direction: column;
+          width: 100%;
+          height: 30%;
+          border: 0px solid black; 
+  
+        }
+  .pager1, .pager2, .pager3, .pager4, .pager5, .pager6{
+  height: 70%;
+  border: 0px solid black;
+  }
+  .pager1{
+  background-image: url(https://botaworld.com/portfolio/vanguard/images/image-537.webp);
+  
+  background-size: cover;
+  }
+  .pager2{
+  background-image: url(https://botaworld.com/portfolio/vanguard/images/Abdulrasheed-Bawa.webp);
+  
+        background-size: cover; 
+  }
+  .pager3{
+  background-image: url(https://botaworld.com/portfolio/vanguard/images/Nigerian-Soldiers-Nigerian-Army-North-East.webp);
+  
+  background-size: cover;
+  }
+  .pager4{
+  background-image: url(https://botaworld.com/portfolio/vanguard/images/Accident-scene.webp);
+  
+  background-size: cover;
+  }
+  .pager5{
+  background-image: url(https://botaworld.com/portfolio/vanguard/images/TB-Joshua-3.webp);
+  
+  background-size: cover;
+  }
+  .pager6{
+  background-image: url(https://botaworld.com/portfolio/vanguard/images/Troops.webp);
+  
+  background-size: cover;
+  }
+  
+  .ice{
+  height: 30%;
+  word-wrap: break-word;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  padding: 10px;
+  
+  }
+  
+  .page10, .page11, .page12{
+    display: none;
+  }
+  
+  
+  .page7, .page8, .page9{
+    display: flex;
+    flex-direction: column;
+   width: 100%;
+   height: 30%;
+   border: 0px solid black; 
+  
+  }
+  .pager7, .pager8, .pager9, .pager10, .pager11, .pager12{
+  height: 75%;
+  border: 0px solid black;
+  }
+  
+  .pager7{
+    background-image: url(https://botaworld.com/portfolio/vanguard/images/image-537.webp);
+    
+    background-size: cover;
+    }
+    .pager8{
+    background-image: url(https://botaworld.com/portfolio/vanguard/images/Abdulrasheed-Bawa.webp);
+    
+          background-size: cover; 
+    }
+    .pager9{
+    background-image: url(https://botaworld.com/portfolio/vanguard/images/Nigerian-Soldiers-Nigerian-Army-North-East.webp);
+    
+    background-size: cover;
+    }
+    .pager10{
+    background-image: url(https://botaworld.com/portfolio/vanguard/images/Accident-scene.webp);
+    
+    background-size: cover;
+    }
+    .pager11{
+    background-image: url(https://botaworld.com/portfolio/vanguard/images/TB-Joshua-3.webp);
+    
+    background-size: cover;
+    }
+    .pager12{
+    background-image: url(https://botaworld.com/portfolio/vanguard/images/Troops.webp);
+    
+    background-size: cover;
+    }
+  
+    .ices{
+      height: 25%;
+      word-wrap: break-word;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      padding: 10px;
+      
+      }
+  
+     
+        .section93{
+          width : 30%;
+          border: 0px solid black; 
+          display: none;
+          flex-direction: column;
+        }
+       
+  
+  
+  
+  
+  
+    footer{
+        height: 120vh;
+        border: 0px solid blue;
+     
+        display: flex;
+        flex-direction: column;
+        margin-top: 120px;
+  
+    }
+    .footf{
+        height: 10%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        
+        border-top: 1px 1px solid rgba(255, 17, 0, 0.321);
+        padding: 0px 10px;
+       
+    }
+    .footf > a {
+     
+        width: 50%;
+        border: 0px solid green;
+        text-decoration: none;
+        color: black;
+    }
+    .footmenu{
+        background-color: rgba(0, 0, 0, 0.711);
+        height: 85%;
+        border: 0px solid red;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 40px 10px;
+    }
+    .footmenu > div {
+        width: 50%;
+        border: 0px solid green;
+        display: flex;
+        flex-direction: column;
+        font-size: 13px;
+    }
+  
+    .footfooter{
+        height: 10%;
+        border: 0px solid blue;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0px 10px;
+        background-color: #333333;
+    }
+    .copyrig{
+        width: 100%;
+        border: 0px solid red;
+        color: white;
+    }
+    .fmenu{
+        display: none;
+       
+    }
+  }
